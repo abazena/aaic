@@ -1,0 +1,83 @@
+
+/* -------------------------------------------------------
+                     phone & tablet 
+-------------------------------------------------------- */
+
+@media (max-width: 767px){
+
+	.navbar-default .navbar-toggle{
+		background: none;
+		margin-top: 15px;
+		border: none;
+	}
+
+	.navbar-default .navbar-nav>li>a{
+		color: #111 !important;
+	}
+
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus
+	{
+		background: none;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar{
+		background: #fff;
+	}
+
+	.nav-scroll .navbar-toggle .icon-bar{
+		background: #111;
+	}
+		
+	.navbar-default .navbar-collapse{
+		text-align: center;
+		border: none;
+		background: #fff;
+		margin-top: 5px;
+		box-shadow: 0px 5px 10px #f4f4f4;
+	}
+
+	.logo{
+		margin-left: 20px;
+	}
+
+	.portfolio .filtering span{
+		margin: 0 0 15px 0;
+	}
+
+	.contact .info .item{
+		margin-bottom: 30px;
+	}	
+}
+
+@media (max-width: 991px){
+
+	.navbar-default .navbar-nav>li{
+		margin: 25px 10px 0;
+		padding: 4px;
+	}
+
+	.services .bord{
+		display: none;
+	}
+
+	.services .item{
+		border: 0;
+	}
+
+	.portfolio .items{
+		width: 100%;
+	}
+
+	.services .item,
+	.price .item,
+	.team .skills,
+	.blog .item
+	{
+		margin-bottom: 50px;
+	}
+
+	.branding .item{
+		padding: 30px 10px;
+	}
+}

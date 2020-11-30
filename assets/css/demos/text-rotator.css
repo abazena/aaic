@@ -1,0 +1,108 @@
+/**
+* @template:  Dangal
+
+TABLE OF CONTENTS
+
+	text rotator demo
+		
+*/
+
+.demo5{
+  background-image: url(../../img/bg1.png);
+}
+.demo5 .caption {
+  text-align: center;
+  margin-top: 50px;
+  color: #fff;
+}
+.demo5 .caption h5 {
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+}
+.demo5 .caption h1 {
+  font-weight: 200;
+  font-size: 50px;
+  margin: 30px auto;
+  font-family: 'Raleway', sans-serif;
+}
+.demo5 .caption a {
+  margin: 0 5px;
+  letter-spacing: 1px;
+}
+.demo5.overlay:after{
+  background: rgba(12,12,12,.5);
+}
+
+
+.section-head .ctit,
+.navbar-default .navbar-nav > li .active,
+.hero .hero-head h1 span,
+.hero .block .block-cont .item .icon,
+.services .item .icon,
+.quote span,
+.price .spacial .mount,
+.clients .client-say .client-item h6,
+.team .item .info h5,
+.team .item .social-icon span:hover,
+.blog .item .content span,
+.contact .info .item span,
+.contact .tabs .tabs-icon li span
+{
+  color: #caa62e !important;
+}
+
+
+.btn-bg-md,
+.btn-bg-md:hover,
+.btn-bord-md:hover,
+.portfolio .item-img .icon:hover,
+.price .item .order div:hover,
+.price .spacial .pop,
+.price .spacial .order div,
+.clients .owl-theme .owl-dots .active span,
+.team .skills .botn:hover,
+.team .prog .info .skills-progress span,
+.contact .tabs .content .form input[type="submit"]:hover,
+.contact .tabs .content .subscribe input[type="submit"]:hover,
+footer .main-footer .social-icon span:hover
+{
+  background: #caa62e;
+}
+
+
+.btn-bg-md,
+.btn-bg-md:hover,
+.btn-bord-md:hover,
+.portfolio .item-img .icon:hover,
+.price .item .order div:hover,
+.price .spacial .order div,
+.contact .tabs .content .subscribe input[type="submit"]:hover
+{
+  border-color:#caa62e;
+}
+.button-scroll{
+  position: absolute;
+  bottom: 5vh;
+  left: calc(50% - 13px);
+  width: 26px;
+  height: 50px;
+  border-radius: 15px;
+  border:2px solid #fff;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.button-scroll span{
+  position: absolute;
+  left: calc(50% - 4px);
+  color: #fff;
+  -webkit-animation: scroll .5s infinite alternate;
+  -moz-animation: scroll .5s infinite alternate;
+  animation: scroll .5s infinite alternate;
+}
+.landing-logo
+{
+  max-height: 50px;
+  max-width: 100px;
+}

@@ -1,0 +1,232 @@
+/**
+* @template:  Dangal
+
+TABLE OF CONTENTS
+
+	Freelancer demo
+		
+*/
+
+
+.demo9{
+  background-image: url(../../img/bg9.jpg);
+}
+.demo9 .caption {
+  margin-top: 50px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+.demo9 .caption h5,.demo9 .caption h6 {
+  letter-spacing: 5px;
+  font-weight: 400;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.demo9 .caption h6{
+  font-size: 18px;
+}
+.demo9 .caption h2 {
+  font-weight: 400;
+  font-size: 50px;
+  margin: 30px auto;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+.demo9 .caption a .botn {
+  letter-spacing: 1px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 7px 25px;
+  display: inline-block;
+  transition: all .5s;
+}
+.demo9.overlay:after{
+  background: rgba(12,12,12,.4);
+}
+.button-scroll{
+  position: absolute;
+  bottom: 5vh;
+  left: calc(50% - 13px);
+  width: 26px;
+  height: 50px;
+  border-radius: 15px;
+  border:2px solid #fff;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.button-scroll span{
+  position: absolute;
+  left: calc(50% - 4px);
+  color: #fff;
+  -webkit-animation: scroll .5s infinite alternate;
+    -moz-animation: scroll .5s infinite alternate;
+    animation: scroll .5s infinite alternate;
+}
+
+@keyframes scroll{
+    0% { top: 50%; }
+    50% { top: 55%; }
+    100% { top: 60%; }
+}
+@-webkit-keyframes scroll{
+    0% { top: 50%; }
+    50% { top: 55%; }
+    100% { top: 60%; }
+}
+@-moz-keyframes scroll{
+    0% { top: 50%; }
+    50% { top: 55%; }
+    100% { top: 60%; }
+}
+
+.hero .hero-head h5{
+  font-family: 'Great Vibes', cursive;
+  font-weight: 300;
+  margin-top: 30px;
+  color: #777;
+}
+
+.hero .block-cont{
+  padding: 80px 30px 80px !important;
+}
+
+.hero .bgone:after{
+  background: rgba(0,0,0,.7) !important;
+}
+
+.hero .bgone{
+  padding: 80px 30px 30px;
+}
+
+.hero .bgone .skills{
+  position: relative;
+  z-index: 5;
+}
+
+.hero .bgone .skills h6{
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.hero .bgone .skills p{
+  color: #999;
+}
+
+.hero .bgone .skills .prog{
+  margin-top: 80px;
+}
+
+.hero .bgone .skills .prog .info {
+  margin-bottom: 30px;
+}
+.hero .bgone .skills .prog .info:last-child {
+  margin-bottom: 0;
+}
+.hero .bgone .skills .prog .info h6 {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.hero .bgone .skills .prog .info .skills-progress {
+  width: 90%;
+  height: 1px;
+  font-size: 0;
+  margin-bottom: 30px;
+  background: #f2f4ec;
+}
+.hero .bgone .skills .prog .info .skills-progress span {
+  width: 0;
+  height: 100%;
+  background: #42D9E4;
+  position: relative;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+.hero .bgone .skills .prog .info .skills-progress span:after {
+  content: attr(data-value);
+  font-size: 10px;
+  position: absolute;
+  top: 5px;
+  right: -5px;
+  color: #eee;
+}
+
+.hero .block-cont p{
+  margin-bottom: 20px !important;
+}
+
+.hero .block-cont h5{
+  font-size: 20px !important;
+  text-align: center;
+}
+
+.hero .numb{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.hero .numb .icon{
+  color: #42D9E4;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.hero .numb h3{
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.hero .numb h4{
+  font-size: 12px;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+
+.section-head .ctit,
+.navbar-default .navbar-nav > li .active,
+.hero .hero-head h1 span,
+.hero .block .block-cont .item .icon,
+.services .item .icon,
+.quote span,
+.price .spacial .mount,
+.clients .client-say .client-item h6,
+.team .item .info h5,
+.team .item .social-icon span:hover,
+.blog .item .content span,
+.contact .info .item span,
+.contact .tabs .tabs-icon li span
+{
+  color: #42D9E4 !important;
+}
+
+
+.btn-bg-md,
+.btn-bg-md:hover,
+.btn-bord-md:hover,
+.portfolio .item-img .icon:hover,
+.price .item .order div:hover,
+.price .spacial .pop,
+.price .spacial .order div,
+.clients .owl-theme .owl-dots .active span,
+.team .skills .botn:hover,
+.team .prog .info .skills-progress span,
+.contact .tabs .content .form input[type="submit"]:hover,
+.contact .tabs .content .subscribe input[type="submit"]:hover,
+footer .main-footer .social-icon span:hover
+{
+  background: #42D9E4;
+}
+
+.demo8 .caption a .botn:hover,
+.btn-bg-md,
+.btn-bg-md:hover,
+.btn-bord-md:hover,
+.portfolio .item-img .icon:hover,
+.price .item .order div:hover,
+.price .spacial .order div,
+.contact .tabs .content .subscribe input[type="submit"]:hover
+{
+  border-color: #42D9E4;
+}
